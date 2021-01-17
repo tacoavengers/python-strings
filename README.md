@@ -70,4 +70,26 @@ sentence = "the ducks are in a pond"
 sample(sentence)
 ```
 
+6. Iterate over a sring using range(len()) and return the letter along with its index
+```
+def sample(sentence):
+    
+    for i in range(len(sentence)):
+        print(f"{i}:{sentence[i]}", end=', ')
+   
+sentence = "the ducks are in a pond"
+sample(sentence)
+```
 
+7. Iterate over a string, split it, and return each word along with its index using range(len())
+```
+def sample(sentence):
+    
+    words = sentence.split()
+    
+    for i in range(len(words)):
+        print(f"{i}:{words[i]}", end=', ')
+   
+sentence = "the ducks are in a pond"
+sample(sentence)
+```
