@@ -75,7 +75,7 @@ sample(sentence)
 def sample(sentence):
     
     for i in range(len(sentence)):
-        print(f"{i}:{sentence[i]}", end=', ')
+        print(f"{i}:{sentence[i]}", end=', ') // 0:t, 1:h, 2:e, 3: , 4:d, 5:u, 6:c, 7:k, 8:s, 9: , 10:a, 11:r, 12:e, 13: , 14:i, 15:n, 
    
 sentence = "the ducks are in a pond"
 sample(sentence)
@@ -88,7 +88,7 @@ def sample(sentence):
     words = sentence.split()
     
     for i in range(len(words)):
-        print(f"{i}:{words[i]}", end=', ')
+        print(f"{i}:{words[i]}", end=', ') // 0:the, 1:ducks, 2:are, 3:in, 4:a, 5:pond,
    
 sentence = "the ducks are in a pond"
 sample(sentence)
@@ -101,7 +101,7 @@ def sample(sentence):
     words = sentence.split()
     
     for key, value in enumerate(words):
-        print(f"{key}:{value}")
+        print(f"{key}:{value}") // 0:the, 1:ducks, 2:are, 3:in, 4:a, 5:pond,
    
 sentence = "the ducks are in a pond"
 sample(sentence)
