@@ -56,7 +56,7 @@ sentence = "the ducks are in a pond"
 sample(sentence)
 ```
 
-5. Using a list comprehension, interate over the string printing the words >= length of 3
+5. Using a list comprehension, iterate over the string printing the words >= length of 3
 ```
 def sample(sentence):
     
@@ -89,6 +89,19 @@ def sample(sentence):
     
     for i in range(len(words)):
         print(f"{i}:{words[i]}", end=', ')
+   
+sentence = "the ducks are in a pond"
+sample(sentence)
+```
+
+8. Iterate over a string using enumerate and print the word along with its index
+```
+def sample(sentence):
+    
+    words = sentence.split()
+    
+    for key, value in enumerate(words):
+        print(f"{key}:{value}")
    
 sentence = "the ducks are in a pond"
 sample(sentence)
